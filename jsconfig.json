@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // configure your absolute imports here
+      "_components/*": ["src/components/*"],
+      "_utils/*": ["src/utils/*"],
+      "_hooks/*": ["src/hooks/*"],
+      "_styles/*": ["src/styles/*"],
+      "_services/*": ["src/services/*"],
+      "_public/*": ["public/*"]
+    },
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules"]
+}
